@@ -22,7 +22,10 @@ Your simple slot machine should do the following:
 * BET system is now progressive, if bet is higher than 1, then a new symbol will show up, each wheel is set to generate random number from 0 to 5, if bet is greater than 1 then it will generate int in range 0 - 6
 * WIN TO CREDIT - functionality, then a player can send won amount to credit amount
 * CASH OUT - functionality, where the amount from credit and win will be withdrawn from the machine, and game will stop
+* there is a short video presenting the functionality: https://youtu.be/KES23Jyjemw
+* there is a project backup link: https://unibrightonac-my.sharepoint.com/:u:/g/personal/r_liewehr1_uni_brighton_ac_uk/EeZWellAQvZAsBfOqQ6LzrABIYASNKStgrNQM2zU1GydWw?e=SWiqQr
 
+* both links are accessible only to those with link
 ---
 
 * I have setup a basic PIXI game setup for you which contains the SpinePlugin needed to handle the assets and a tweening engine that we use in the gecko framework
