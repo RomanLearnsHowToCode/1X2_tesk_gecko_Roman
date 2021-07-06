@@ -24,7 +24,7 @@ Your simple slot machine should do the following:
 * CASH OUT - functionality, where the amount from credit and win will be withdrawn from the machine, and game will stop
 * there is a short video presenting the functionality: https://youtu.be/KES23Jyjemw
 * there is a project backup link: https://unibrightonac-my.sharepoint.com/:u:/g/personal/r_liewehr1_uni_brighton_ac_uk/EeZWellAQvZAsBfOqQ6LzrABIYASNKStgrNQM2zU1GydWw?e=SWiqQr
-
+* game is live here: http://rl445.brighton.domains/gecko/index.html 
 * both links are accessible only to those with link
 ---
 
