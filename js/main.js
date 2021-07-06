@@ -927,7 +927,7 @@ richTextBetDecrease.on('pointerdown', decreaseBet);
             console.log("index 13 triggered, should be 1 2 3");
             slot00Texture01.state.setAnimation(1, 'win', true);
             slot01Texture02.state.setAnimation(1, 'win', true);
-            //slot02Texture03.state.setAnimation(1, 'win', true);
+            slot02Texture03.state.setAnimation(1, 'win', true);
             win = win + data[13].response.results.win * bet;
             richTextWinAmount.text = win;             
         } 
@@ -940,7 +940,7 @@ richTextBetDecrease.on('pointerdown', decreaseBet);
             console.log("index 15 triggered, should be 0 , 2 , 3");
             slot00Texture00.state.setAnimation(1, 'win', true);
             slot01Texture02.state.setAnimation(1, 'win', true);
-            //slot02Texture03.state.setAnimation(1, 'win', true);
+            slot02Texture03.state.setAnimation(1, 'win', true);
             win = win + data[15].response.results.win * bet;           
             richTextWinAmount.text = win; 
         }
@@ -972,7 +972,6 @@ richTextBetDecrease.on('pointerdown', decreaseBet);
             slot00Texture01.state.setAnimation(1, 'win', true);
             slot01Texture00.state.setAnimation(1, 'win', true);
             win = win + data[4].response.results.win * bet;
-
             richTextWinAmount.text = win;             
         }
         }
