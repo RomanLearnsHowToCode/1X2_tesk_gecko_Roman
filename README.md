@@ -26,6 +26,21 @@ Your simple slot machine should do the following:
 * there is a project backup link: https://unibrightonac-my.sharepoint.com/:u:/g/personal/r_liewehr1_uni_brighton_ac_uk/EeZWellAQvZAsBfOqQ6LzrABIYASNKStgrNQM2zU1GydWw?e=SWiqQr
 * game is live here: http://rl445.brighton.domains/gecko/index.html 
 * both links are accessible only to those with link
+
+* UPDATE: 06/07/2021 - I have fixed the only bug I could figure out, sometimes it was happening that some symbols "fire up" without a "reason" to do so, the fix was implemented like this: 
+
+        function getContainer1(){
+       if (obj[0] == 0){
+            //console.log("left: cherries");
+           slot00Texture00.x = slot1container.x;
+           slot00Texture00.y = slot1container.y;
+           slot00Texture00.state.setAnimation(0, 'static', true); // THIS IS THE FIX
+           app.stage.addChild(slot00Texture00);
+        }
+	
+FIX is visible on line 37! , once I am creating a content for each container, I set a STATIC animation as default (not animate).. unfortunately I have discovered this fix after submission deadline, which was today (06/07/2021 - 9AM) ... but now it is bullet proof (the FIX is not implemented in this project, I have only provided precursor, I cannot implement this to the project NOW because of the submission deadline for 1X2 games).. total of 19 lines need to be added for each symbol for each slot container, it starting at:
+line: 611 and ends on 817... 
+
 ---
 
 * I have setup a basic PIXI game setup for you which contains the SpinePlugin needed to handle the assets and a tweening engine that we use in the gecko framework
